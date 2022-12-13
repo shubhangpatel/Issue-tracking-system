@@ -1,0 +1,31 @@
+.tables{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 5px;
+        min-height: 400px;
+        width: 25%;
+        border-radius: 3px;
+        background: rgb(244, 245, 247);
+    
+}
+.hcol {
+       padding: 13px 10px 17px;
+       text-transform: uppercase;
+       color: rgb(94, 108, 132);
+       font-size: 12.5px;
+       overflow: hidden;
+       white-space: nowrap;
+     text-overflow: ellipsis;
+}
+.data{
+    display: block;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(9 30 66 / 25%) 0px 1px 2px 0px;
+    transition: background 0.1s ease 0s;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px 10px;
+}
